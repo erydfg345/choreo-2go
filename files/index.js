@@ -6,8 +6,8 @@ const UUID = process.env.UUID || '8939df81-915d-44af-9a25-5f00e76e57c2'; //若�
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nz.f4i.cn';     
 const NEZHA_PORT = process.env.NEZHA_PORT || '5555';                     // 哪吒端口为{443,8443,2096,2087,2083,2053}其中之一开启tls
 const NEZHA_KEY = process.env.NEZHA_KEY || 'N9BVoBfucVIrIzCBt8';   // 没用哪吒，把这个参数空着
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'choreo.velmaty9.us.kg';     // 建议使用token，argo端口8080，cf后台设置需对应,使用json需上传json和yml文件至files目录
-const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiMjQ3NzcwNWFkZjU2MzM2NzM2ZGMxNThjNTE5MDlkN2IiLCJ0IjoiOGVkNWFmYjMtN2MyNS00MzU5LWE3Y2MtZDZiYmE3Zjk1N2NmIiwicyI6Ik9UUXlOems0TjJZdE5qSXhOQzAwWVRFMExUZzJZV0V0WlRnMVl6TmxZamxrTW1SaiJ9';
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'choreo5.startupfit.tk';     // 建议使用token，argo端口8080，cf后台设置需对应,使用json需上传json和yml文件至files目录
+const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiZTA5ODBmZWI4NWQ1ZjhiOGE3MTJhY2MxZTEwZDA5ZTAiLCJ0IjoiYzU1MWRmNmMtZjQ0Yy00ZDNjLWIxZGUtMjhkMDFhMTJiOGI0IiwicyI6IlpUVTNPVEE1TjJNdE9URmpNeTAwTnpVMkxXRXhNekV0TlRGalpqVmtZamhpTmpZMiJ9';
 const CFIP = process.env.CFIP || 'www.visa.com.tw';
 const NAME = process.env.NAME || 'Choreo';
 
